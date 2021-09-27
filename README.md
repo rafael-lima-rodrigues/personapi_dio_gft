@@ -1,4 +1,4 @@
-<h2>Digital Innovation: Expert class - People management API REST with Spring Boot</h2>
+## Digital Innovation: GFT Java & AWS Developer Bootcamp - People management API REST with Spring Boot
 
 This project is a small company's people management system through a REST API created using Spring Boot.
 
