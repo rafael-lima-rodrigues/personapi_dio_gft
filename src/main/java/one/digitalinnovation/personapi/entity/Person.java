@@ -1,9 +1,6 @@
 package one.digitalinnovation.personapi.entity;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
 import java.time.LocalDate;
@@ -14,6 +11,7 @@ import java.util.List;
 @AllArgsConstructor
 @Getter
 @Entity
+@Builder
 public class Person {
 
     @Id
