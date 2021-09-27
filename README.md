@@ -2,8 +2,6 @@
 
 This project is a small company's people management system through a REST API created using Spring Boot.
 
-Durante a sessão, serão desenvolvidos e abordados os seguintes tópicos:
-
 ### Overview:
 * Data model for mapping entities in databases
 * User management operations (registering, reading, updating and removing people from a system)
