@@ -1,6 +1,9 @@
 package one.digitalinnovation.personapi.entity;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.time.LocalDate;
@@ -9,7 +12,6 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Getter
 @Entity
 @Builder
 public class Person {
@@ -22,7 +24,7 @@ public class Person {
     private String name;
 
     @Column(nullable = false)
-    private String lastname;
+    private String lastName;
 
     @Column(nullable = false, unique = true)
     private String cpf;

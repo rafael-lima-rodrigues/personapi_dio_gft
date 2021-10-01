@@ -63,7 +63,7 @@ public class PersonService {
     private MessageResponseDTO createMessageResponse(Long id, String message) {
         return MessageResponseDTO
                 .builder()
-                .meessage(message + id)
+                .message(message + id)
                 .build();
     }
 }
